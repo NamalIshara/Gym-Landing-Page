@@ -1,0 +1,368 @@
+body {
+    margin: 0;
+    background-color: #1f2937;
+}
+
+.flex-bx {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 100px;
+    background-color: #1f2937;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.home a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+.home a:hover{
+    color: #586984;
+}
+
+.item {
+    padding: 10px;
+    width: 100px;
+    padding-top: 30px;
+    color: #E5E7EB;
+    font-size: 18.5px;
+    font-weight: 550;
+    text-decoration: none;
+}
+
+.item:hover {
+    color: #586984;
+}
+
+.item::after {
+    
+    height: 2px;
+    width: 0;
+    background-color: #4f617f;
+    transition: 0.5s ease-in-out;
+    color: #586984;
+}
+
+.item:hover::after {
+    
+    height: 2px;
+    width: 80%;
+    background-color: #586984;
+    color: #586984;
+}
+
+.logo-text {
+    color: #f9faf8;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0;
+    padding-top: 16px;
+    margin-bottom: 40px;
+    margin-left: 14px;
+}
+
+span {
+    color: rgb(10, 141, 136);
+    font-size: 40px;
+    font-weight: 550;
+    font-family: algerian;
+
+
+}
+
+.h-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #1f2937;
+}
+
+.title {
+    color: #f9faf8;
+    font-size: 46px;
+    padding-top: 30px;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 15px;
+    font-family:sans-serif;
+    line-height: 50px;
+}
+
+.logo {
+    align-items: left;
+
+}
+
+.sub-text {
+    font-size: 18px;
+    color: #999ba1;
+    padding-bottom: 15px;
+}
+
+.s-button {
+    background-color: #3882f6;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.h-img {
+    width: 450px;
+    height: 350px;
+    padding-right: 50px;
+}
+
+.slides {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 150px;
+    padding-top: 80px;
+    
+
+}
+
+.workouts {
+    width: 250px;
+    height: 150px;
+    border-color: black;
+    color: black;
+    border-radius: 10px;
+    font-size: 20px;
+    border-width: 5px;
+    margin: 0;
+    padding: 0;
+    border-top-style: groove;
+    border-left-style: groove;
+    overflow: hidden;
+    background-color: black;
+    cursor: pointer;
+}
+
+.Meal-Plan {
+    width: 250px;
+    height: 150px;
+    border-color: black;
+    border-width: 5px;
+    color: black;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 0;
+    border-top-style: groove;
+    border-left-style: groove;
+    background-color: black;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.Shedule {
+    width: 250px;
+    height: 150px;
+    border-color: black;
+    color: black;
+    border-radius: 10px;
+    font-size: 20px;
+    border-width: 5px;
+    padding: 0;
+    border-top-style: groove;
+    border-left-style: groove;
+    overflow: hidden;
+    background-color: black;
+    cursor: pointer;
+}
+
+.Supplements {
+    width: 250px;
+    height: 150px;
+    border-color: black;
+    color: black;
+    border-radius: 10px;
+    font-size: 20px;
+    border-width: 5px;
+    padding: 0;
+    border-top-style: groove;
+    border-left-style: groove;
+    overflow: hidden;
+    background-color: black;
+    cursor: pointer;
+}
+
+.workouts:hover,
+.Supplements:hover,
+.Shedule:hover,
+.Meal-Plan:hover {
+    border-color: #020811;
+}
+
+.part2 {
+    background-color: #d4d9e5;
+}
+
+.part2-h {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 40px;
+    color: rgb(13, 3, 51);
+    font-family:sans-serif;
+
+}
+
+.w-img {
+    width: 242px;
+    height: 140px;
+    transition: 0.3s;
+}
+
+.w-img:hover {
+    transform: scale(1.1) rotate(4deg);
+}
+
+.m-img {
+    width: 242px;
+    height: 140px;
+    transition: 0.3s;
+}
+
+.m-img:hover {
+    transform: scale(1.1) rotate(4deg);
+}
+
+.s-img {
+    width: 242px;
+    height: 140px;
+    transition: 0.3s;
+}
+
+.s-img:hover {
+    transform: scale(1.1) rotate(4deg);
+}
+
+.su-img {
+    width: 242px;
+    height: 140px;
+    transition: 0.3s;
+}
+
+.su-img:hover {
+    transform: scale(1.1) rotate(4deg);
+}
+
+h2 {
+    text-align: center;
+}
+
+h2:hover{
+    color: rgb(11, 11, 89);
+}
+
+.quotes {
+    font-size: 25px;
+    padding-left: 250px;
+    padding-right: 200px;
+    background-color: #bab8e0;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.q-name {
+    padding-left: 740px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.tab-container{
+    margin: 0;
+    padding: 0;
+}
+
+.show{
+    display:block;
+}
+.hide{
+    display: none;
+}
+
+#tabContent-1{
+    padding-left: 100px;
+    background-color: #d4d9e5;
+    padding-top: 0;
+
+}
+#tabContent-2{
+    padding-left: 442px;
+    background-color: #d4d9e5;
+    padding-top: 0;
+}
+#tabContent-3{
+    padding-left: 780px;
+    background-color: #d4d9e5;
+    padding-top: 0;
+}
+#tabContent-4{
+    padding-left: 1120px;
+    background-color: #d4d9e5;
+    padding-top: 0;
+}
+
+.tab1-btn{
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #d4d9e5;
+    margin-top: 0;
+    border: none;
+    border-top-right-radius: 10px;
+    border-left: solid 2px;
+    border-right: solid 2px;
+    border-top: solid 2px;
+    margin-right: -4px;
+}
+.tab2-btn,
+.tab3-btn,
+.tab4-btn{
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #d4d9e5;
+    margin-top: 0;
+    border: none;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-left: solid 2px;
+    border-right: solid 2px;
+    border-top: solid 2px;
+}
+.tab4-btn{
+    border-top-right-radius: 0;
+}
+.tab1-btn-hide{
+    padding-top: 20px;
+    padding-bottom: 18.5px;
+    padding-left: 520px;
+    padding-right: 520px;
+    margin-left: 0;
+    border-left: 0;
+    border-top: none;
+    border-right: none;
+    background-color: #d4d9e5;
+}
+
+.workout-info{
+    border-left: solid 2px;
+    padding-top: 0;
+    margin-top: 0;
+}
+
